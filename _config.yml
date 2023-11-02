@@ -1,0 +1,25 @@
+title: santaclz's blog
+email: rabit0110115@gmail.com
+description: >-
+  Vulnerability researcher's blog focusing on system internals, 
+  reverse engineering and exploitation.
+baseurl: ""
+url: "https://santaclz.github.io"
+twitter_username: santaclzz
+github_username: santaclz
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
