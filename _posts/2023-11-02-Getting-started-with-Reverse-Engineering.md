@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Getting started with Reverse Engineering"
+date:   2023-11-02 15:34:30 +0200
+categories: jekyll update
+---
+# How it started
+
+This is a blog post about how I started in the reverse engineering and exploit development field. It's not a guide on how to get started; it's just about my path and experience. The year was 2020, and I was playing CTF with a friend. There was a reversing challenge that I wanted to solve so badly that I ended up skipping sleep. I didn't solve it in the end, but I stepped into a whole new world of reversing. After that CTF, I decided to study more for reversing challenges. Up until that point, I was solving mostly web and cryptography challenges on hackthebox and cryptohack. My study plan was to move from category to category, mastering every field. After getting reality-checked by many CTFs, I realized that all categories are hard, and there is no point at which you master one. So, instead of mastering every category, I decided to focus on just one, which I considered the coolest (pwn). Over time, I got rusty at the other ones, but I tell myself it's okay since I found my passion. Later, I decided to look at real-world vulnerabilities instead of CTF challenges.
+
+# How it's going
+
+I gave a talk on Linux Kernel Exploitation at BSidesLjubljana, and I also learned how to write Windows Kernel exploits. This experience opened doors for me to attend multiple major conferences and travel the world. Currently, I'm delving into macOS internals to broaden my expertise.
+
+# The project(s) that taught me Reverse Engineering
+
+In 2021, I embarked on a journey to create my own programming language. I named it OogaBooga, drawing inspiration from the C language syntax. At that point, compilers were a mystery to me. Armed with just pen and paper, I spent hours figuring out implementation details, probably reinventing many things along the way. Assembly language became a close friend during this time. Even though Assembly constituted only about 5% of the project, it significantly deepened my understanding of code abstractions.
+
+After three weeks of total dedication to the project, a milestone was hit: I got my first "Hello World" program compiled from my language and executed on the CPU. Check out the project here: [OogaBooga](https://github.com/santaclz/OogaBooga)
+
+The journey didn’t stop there. Later, along with my college friends, I created a GDB-inspired debugger: [FERI debugger](https://github.com/AlexBrence/FERIdebugger)
+
+And when I was exploring heap exploitation, I went ahead and implemented my own heap memory management: [myheap](https://github.com/santaclz/myheap)
