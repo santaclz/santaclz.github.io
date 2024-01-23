@@ -9,6 +9,12 @@ layout: default
   </header>
 
   <section class="content">
+    <hr>
+    <h2>Table of contents</h2>
+    {% include toc.html html=content %}
+    <br>
+    <hr>
+    <br>
     {{ content }}
   </section>
 </article>

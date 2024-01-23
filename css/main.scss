@@ -1,0 +1,59 @@
+---
+---
+
+@import 'colors';
+@import "jekyll-theme-minimal-nocolor";
+
+body {
+  @include color-assign(background-color, background);
+  @include color-assign(color, primary-500);
+
+  a {
+    @include color-assign(color, accent-500);
+
+    &:hover {
+      @include color-assign(color, accent-600);
+    }
+  }
+
+  .highlight {
+    @include color-assign(background-color, sec_background);
+  }
+  .highlight code {
+    @include color-assign(background-color, sec_background);
+  }
+  .highlight .k {
+    @include color-assign(color, primary-400);
+  }
+  .highlight .o {
+    @include color-assign(color, primary-400);
+  }
+  .highlight .s {
+    @include color-assign(color, accent-500);
+  }
+  .highlight .s2 {
+    @include color-assign(color, accent-500);
+  }
+  .highlight .se {
+    @include color-assign(color, accent-600);
+  }
+  .highlight .nf {
+    @include color-assign(color, accent-700);
+  }
+  .highlight .kt {
+    @include color-assign(color, accent-800);
+  }
+
+  h1 {
+    @include color-assign(color, accent-900);
+  }
+  h2 {
+    @include color-assign(color, accent-900);
+  }
+  h3 {
+    @include color-assign(color, accent-900);
+  }
+  h4 {
+    @include color-assign(color, accent-900);
+  }
+}

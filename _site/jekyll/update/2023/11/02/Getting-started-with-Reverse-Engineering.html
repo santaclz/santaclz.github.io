@@ -23,10 +23,22 @@
 {"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-11-02T14:34:30+01:00","datePublished":"2023-11-02T14:34:30+01:00","description":"How it started","headline":"Getting started with Reverse Engineering","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2023/11/02/Getting-started-with-Reverse-Engineering.html"},"url":"http://localhost:4000/jekyll/update/2023/11/02/Getting-started-with-Reverse-Engineering.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=5f663d41a39b7b02f14a30976d7e4de38a7da70d">
+    <link rel="stylesheet" href="/assets/css/style.css?v=465e9589a3eb6630b387283e84268c79e35c62a6">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'G-DXDH6RMJMS', 'auto');
+    ga('send', 'pageview');
+  </script>
 
 
 
@@ -35,12 +47,15 @@
 
 <!-- end custom head snippets -->
 
+
+    <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      <h1><a href="http://localhost:4000/">santaclz's blog</a></h1>
-      
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">santaclz's blog</a></h1>
+      </header>
+      <section>
 
       <article class="post">
   <header>
@@ -49,6 +64,12 @@
   </header>
 
   <section class="content">
+    <hr>
+    <h2>Table of contents</h2>
+    <ul><li><a href="#how-it-started">How it started</a></li><li><a href="#how-its-going">How it’s going</a></li><li><a href="#the-projects-that-taught-me-reverse-engineering">The project(s) that taught me Reverse Engineering</a></li></ul>
+    <br>
+    <hr>
+    <br>
     <h1 id="how-it-started">How it started</h1>
 
 <p>This is a blog post about how I started in the reverse engineering and exploit development field. It’s not a guide on how to get started; it’s just about my path and experience. The year was 2020, and I was playing CTF with a friend. There was a reversing challenge that I wanted to solve so badly that I ended up skipping sleep. I didn’t solve it in the end, but I stepped into a whole new world of reversing. After that CTF, I decided to study more for reversing challenges. Up until that point, I was solving mostly web and cryptography challenges on hackthebox and cryptohack. My study plan was to move from category to category, mastering every field. After getting reality-checked by many CTFs, I realized that all categories are hard, and there is no point at which you master one. So, instead of mastering every category, I decided to focus on just one, which I considered the coolest (pwn). Over time, I got rusty at the other ones, but I tell myself it’s okay since I found my passion. Later, I decided to look at real-world vulnerabilities instead of CTF challenges.</p>
@@ -72,9 +93,14 @@
 
 
 
-      
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/santaclz">santaclz</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
+    <script src="/assets/js/scale.fix.js"></script>
   </body>
 </html>

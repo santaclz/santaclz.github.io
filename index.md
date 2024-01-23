@@ -3,7 +3,7 @@ layout: home
 title: santaclz's blog
 ---
 
-<div class="home">
+<div>
     <h1>Welcome to santaclz's blog!</h1>
     <p>
         Here, you'll find posts focusing on system internals, reverse engineering, and exploitation.
