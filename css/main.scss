@@ -43,6 +43,19 @@ body {
   .highlight .kt {
     @include color-assign(color, accent-800);
   }
+  .highlight .kn {
+    @include color-assign(color, accent-800);
+  }
+
+  li {
+    padding-left: 0;
+  }
+  ul {
+    padding-inline-start: 20px;
+  }
+  ol {
+    padding-inline-start: 20px;
+  }
 
   h1 {
     @include color-assign(color, accent-900);
